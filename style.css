@@ -1,0 +1,43 @@
+body {
+	background:  green ;
+
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	background: green;
+
+}
+
+p {
+
+	font-size: 80px;  /* размер шрифта  */
+	color: Red; /*цвет шрифта*/
+	text-align: center; /*текст выровнять по центру*/
+	font-weight: 700px;
+
+}
+
+
+p::first-letter {
+	color:yellow ;
+}
+
+.red_block {
+	background: red;
+
+}
+
+
+#super_block {
+	width:200px ;
+	height: 200px;
+	background:black ;
+
+
+}
+
+.black_letter {
+	color: black;
+}
